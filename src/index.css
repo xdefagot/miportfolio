@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+@theme {
+  --font-sans: 'Sora', sans-serif;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+  
+}
+
+
