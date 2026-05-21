@@ -1,6 +1,7 @@
 import React from 'react'
 import { SiJavascript, SiReact, SiNodedotjs, SiTailwindcss, SiGit, SiPython, SiDotnet} from 'react-icons/si'
 import { TbBrandCSharp, TbBrandHtml5, TbBrandCss3, TbBrandGithubFilled, TbBrandVisualStudio, TbSql} from 'react-icons/tb'
+import { SiDevbox } from "react-icons/si";
 
 
 const Skills = () => {
@@ -25,7 +26,10 @@ el archivo css, lo borre. */
     return ( 
    
     <section id="skills">
-    <h2 className="text-4xl font-bold text-[#6366f1] mb-8 text-center">skills</h2>
+    <div className= "min-h-screen mt-70 px-20 py-20" id="skills">
+         <p className= "text-[#6366f1] text-xs font-bold tracking-widest mb-2"><SiDevbox /> skills</p>
+         <h2 className="text-white text-5xl font-bold mb-4">Herramientas y tecnologías</h2>
+         <p className= "text-gray-400 text-lg mb-16">Cada herramienta y tecnología que he aprendido y algunas de ellas he utilizado en mis proyectos.</p>
      <div className="overflow-hidden">
       <div className="flex w-max" style={{ animation: 'marquee 20s linear infinite' }}>
         {[...skills, ...skills].map((skill, index) => (
@@ -42,6 +46,7 @@ el archivo css, lo borre. */
           </div>
         ))}
        </div>
+      </div>
       </div>
     </section>
     )
