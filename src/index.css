@@ -32,3 +32,22 @@
 @theme {
   --font-Sora: 'Sora';
 }
+*/
+/*
+html {
+  scroll-behavior: smooth;
+}
+
+para cambiar la barrita del scroll es lo de abajo */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444584;
+}

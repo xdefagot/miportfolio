@@ -1,14 +1,15 @@
 import React from "react"
 import Spline from '@splinetool/react-spline'
 
+
 const Inicio = () => {
     return (
     <div id='inicio' className=" flex flex-row items-center justify-between min-h-screen px-20">
-     <div className="flex flex-col w-1/2  text-left">
-      <div className="flex gap -3 mb-4">
-        <span className="border border-white/30 text-white text-sm px-4 py-1 rounded-full transition-all duration-300 hover:border-[#6366f1] hover:bg-[#6366f1]/20 hover:scale-105">node.js</span>
-        <span className="border border-white/30 text-white text-sm px-4 py-1 rounded-full transition-all duration-300 hover:border-[#6366f1] hover:bg-[#6366f1]/20 hover:scale-105">tailwindcss</span>
-        <span className="border border-white/30 text-white text-sm px-4 py-1 rounded-full transition-all duration-300 hover:border-[#6366f1] hover:bg-[#6366f1]/20 hover:scale-105">javascript</span> 
+     <div className="flex flex-col w-1/2 text-left">
+      <div className="flex gap-2 mb-4">
+        <span className="border border-white/30 text-white text-xs px-4 py-1 rounded-full transition-all duration-300 hover:border-[#6366f1] hover:bg-[#6366f1]/20 hover:scale-105 ">react</span>
+        <span className="border border-white/30 text-white text-xs px-4 py-1 rounded-full transition-all duration-300 hover:border-[#6366f1] hover:bg-[#6366f1]/20 hover:scale-105">tailwindcss</span>
+        <span className="border border-white/30 text-white text-xs px-4 py-1 rounded-full transition-all duration-300 hover:border-[#6366f1] hover:bg-[#6366f1]/20 hover:scale-105">javascript</span> 
 
       </div >
       
@@ -17,9 +18,10 @@ const Inicio = () => {
       <div className="flex gap-4 mt-8">
         <a href="#proyectos" className="bg-[#6366f1] text-black text-sm font-bold px-6 py-4 rounded-lg">
           ver proyectos 
-        </a>
-        <a href="/cv.pdf" download className="border border-[#6366f1] text-white text-sm px-6 py-4 rounded-lg">
-          descargar CV
+        </a>    
+                
+        <a href="/cv.pdf" download className="bg-black border border-[#6366f1] hover:border-[#6366f1] hover:bg-[#6366f1]/20 transition-all duration-300 text-white text-sm font-bold px-6 py-4 rounded-lg">
+          descargar cv
         </a>
       </div>
      </div>
