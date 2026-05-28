@@ -39,6 +39,7 @@ function App() {
 
   return (
     <div className='bg-gray-950 flex flex-col gap-10 p-4 md:flex-none md:gap-0 md:p-0 w-full min-h-screen'>
+      <Navbar />
       <Inicio />
       <SobreMi />
       <Skills />
