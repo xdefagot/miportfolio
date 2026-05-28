@@ -37,9 +37,9 @@ const proyectos= [
 
 const Proyectos = () => {
     return (
-        <div className= "min-h-screen mt-70 px-20 py-20" id="proyectos">
+        <div className= "min-h-screen mt-24 md:mt-70 px-6 md:px-20 py-20" id="proyectos">
          <p className= "text-[#6366f1] text-xs font-bold tracking-widest mb-2">💜 Proyectos</p>
-         <h2 className="text-white text-5xl font-bold mb-4">Lo que fui construyendo.</h2>
+         <h2 className="text-white  text-2xl md:text-5xl font-bold mb-4">Lo que fui construyendo.</h2>
          <p className= "text-gray-400 text-lg mb-16">Cada proyecto representa algo que aprendí en el camino. Acá les dejo algunos:</p>
          
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
@@ -55,7 +55,7 @@ const Proyectos = () => {
                </h3>
                <p className='text-gray-400 text-sm mb-4'>{proyecto.descripcion}</p>
 
-                <div className="flex gap-2 text-gray-400 font-bold">
+                <div className="flex flex-wrap gap-2 text-gray-400 font-bold">
                 {proyecto.tecnologias.map((tech) => (
                     <span key={tech}>{tech}</span>
                    ))}

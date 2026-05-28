@@ -28,12 +28,12 @@ el archivo css, lo borre. */
     <section id="skills">
     <div className= "min-h-screen mt-70 px-20 py-20" id="skills">
          <p className= "text-[#6366f1] text-xs font-bold tracking-widest mb-2"><SiDevbox /> skills</p>
-         <h2 className="text-white text-5xl font-bold mb-4">Herramientas y tecnologías</h2>
+         <h2 className="text-white text-3xl md:text-5xl font-bold mb-4">Herramientas y tecnologías</h2>
          <p className= "text-gray-400 text-lg mb-16">Cada herramienta y tecnología que he aprendido y algunas de ellas he utilizado en mis proyectos.</p>
      <div className="overflow-hidden">
       <div className="flex w-max" style={{ animation: 'marquee 20s linear infinite' }}>
         {[...skills, ...skills].map((skill, index) => (
-          <div key={index} className="flex flex-col items-center mx-8 group cursor-pointer justify-center mx-4">
+          <div key={index} className="flex flex-col items-center mx-4 group cursor-pointer justify-center">
             <skill.icon size={85}
             style={{color: 'white'}}
             className="opacity-50 transition-all group-hover:opacity-100 duration-300"
