@@ -26,7 +26,7 @@ el archivo css, lo borre. */
     return ( 
    
     <section id="skills">
-    <div className= "min-h-screen mt-70 px-20 py-20" id="skills">
+    <div className= "min-h-screen mt-24 md:mt-70 px-4 md:px-20 py-10" id="skills">
          <p className= "text-[#6366f1] text-xs font-bold tracking-widest mb-2"><SiDevbox /> skills</p>
          <h2 className="text-white text-3xl md:text-5xl font-bold mb-4">Herramientas y tecnologías</h2>
          <p className= "text-gray-400 text-lg mb-16">Cada herramienta y tecnología que he aprendido y algunas de ellas he utilizado en mis proyectos.</p>

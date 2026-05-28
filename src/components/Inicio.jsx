@@ -4,7 +4,7 @@ import Spline from '@splinetool/react-spline'
 
 const Inicio = () => {
     return (
-    <div id='inicio' className="flex-col md:flex-row items-center justify-between min-h-screen px-6 md:px-20 pt-24 md:pt-0">
+    <div id='inicio' className="flex flex-col md:flex-row items-center justify-between min-h-screen px-6 md:px-20">
      <div className="flex flex-col w-full md:w-1/2 text-left">
       <div className="flex flex-wrap gap-2 mb-4">
         <span className="border border-white/30 text-white text-xs px-4 py-1 rounded-full transition-all duration-300 hover:border-[#6366f1] hover:bg-[#6366f1]/20 hover:scale-105 ">react</span>
